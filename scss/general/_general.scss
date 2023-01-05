@@ -1,0 +1,14 @@
+@import "./fonts";
+@import "./variables";
+@import "./typography";
+
+body {
+    width: 100%;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+

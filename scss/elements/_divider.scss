@@ -1,0 +1,26 @@
+.divider {
+    border-bottom: 1px solid #FFCC00;
+    border-top: 0px;
+    height: 0px;
+    margin: 0;
+
+    &-title {
+        width: 100%;
+    }
+
+    &-profile {
+        width: 100px;
+    }
+
+    &-biography {
+        width: 10px;
+        height: 4px;
+        background-color: $color-primary;
+        border: none;
+    }
+
+    &-biography:nth-child(2) {
+        width: 20px;
+    }
+}
+

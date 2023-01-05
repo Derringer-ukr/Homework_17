@@ -1,0 +1,54 @@
+body {
+    font-family: $primary-text;
+
+}
+
+a {
+    text-decoration: none;
+    color: $color-primary;
+}
+
+.our-team {
+
+    &__title {
+
+        &-sub {
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 24px;
+            text-transform: uppercase;
+            color: $color-subtitle;
+        }
+
+        &-main {
+            font-family: 'Roboto';
+            font-weight: 900;
+            font-size: 60px;
+            line-height: 66px;
+            text-transform: uppercase;
+            color: #FFCC00;
+        }
+    }
+    &__name {
+        font-family: 'Roboto';
+        font-weight: 900;
+        font-size: 36px;
+        line-height: 42px;
+        color: $color-title;
+    }
+
+    &__position {
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 36px;
+        color: $color-title;
+    }
+
+    &__biography {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 24px;
+        text-align: center;
+        color: $color-text;
+    }
+}
